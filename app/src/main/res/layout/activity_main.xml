@@ -127,9 +127,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
-    <LinearLayout
+    <androidx.appcompat.widget.ActionMenuView
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="wrap_content"
         android:background="?attr/colorButtonNormal"
         android:gravity="center"
         android:orientation="horizontal"
@@ -138,30 +138,30 @@
         app:layout_constraintStart_toStartOf="parent">
 
 
-        <ImageView
+        <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
             android:src="@drawable/home" />
 
-        <ImageView
+        <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/profileicon" />
 
-        <ImageView
+        <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/flights" />
 
-        <ImageView
+        <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/hotel" />
 
-    </LinearLayout>
+    </androidx.appcompat.widget.ActionMenuView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
