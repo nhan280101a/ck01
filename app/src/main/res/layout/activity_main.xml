@@ -138,25 +138,25 @@
         app:layout_constraintStart_toStartOf="parent">
 
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
+        <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
             android:src="@drawable/home" />
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
+        <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/profileicon" />
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
+        <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/flights" />
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
+        <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_weight="1"
